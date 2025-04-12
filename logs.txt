@@ -1,0 +1,19 @@
+*   1081f1b (HEAD -> master, origin/master) Merge pull request #13 from mechkarov01/revert-12-8-mark-a-task-as-completed-by-name
+|\
+| * 1514d6c Revert "Add marking of task as completed by name feature"
+|/
+*   234e39c Merge pull request #12 from mechkarov01/8-mark-a-task-as-completed-by-name
+|\
+| * 4163433 (origin/8-mark-a-task-as-completed-by-name, 8-mark-a-task-as-completed-by-name) Add marking of task as completed by name feature
+* |   4e3f4ae Merge pull request #11 from mechkarov01/4-sort-tasks-by-priority
+|\ \
+| * | a3f6161 (origin/4-sort-tasks-by-priority, 4-sort-tasks-by-priority) Add sorting of tasks by priority feature
+| |/
+* |   5ea6fe8 Merge pull request #10 from mechkarov01/1-remove-a-task-by-name
+|\ \
+| |/
+|/|
+| * 1083738 (origin/1-remove-a-task-by-name, 1-remove-a-task-by-name)  Add task removal by name feature
+|/
+* 7834c73 Add starter code
+* a07d331 initial commit

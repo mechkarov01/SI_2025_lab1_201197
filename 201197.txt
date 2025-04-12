@@ -1,0 +1,24 @@
+13. git fetch origin (With this command, we gained access to the trackers to the 3 branches I created to work on the specific features from the project).
+
+14. git checkout 1-remove-a-task-by-name (We branched ourselves to the first tracking branch so we can work on implementing the needed feature).
+
+16&17. git add *.java (We placed the file in the staging area).
+       git commit -m 'Add removal of task by name feature' (We committed the code with the added feature).
+       git push origin 1-remove-a-task-by-name (We pushed the branch with the feature to the remote repo).
+
+       git add *.java (We placed the file in the staging area).
+       git commit -m 'Add sorting of tasks by priority feature' (We committed the code with the added feature).
+       git push origin 4-sort-tasks-by-priority (We pushed the branch with the feature to the remote repo).
+
+       git add *.java (We placed the file in the staging area).
+       git commit -m 'Add marking of task as completed by name feature' (We committed the code with the added feature).
+       git push origin 8-mark-a-task-as-completed-by-name (We pushed the branch with the feature to the remote repo).
+
+18. Created a pull request on GitHub for 2 branches and merged them successfully. (Accidentally merged all 3, but reverted 1 so I can merge it locally through git commands)
+
+22. git checkout master (We switched back to master branch locally).
+    git merge master 8-mark-a-task-as-completed-by-name (We now merged that third branch to the master branch).
+
+*No conflicts occurred during the merging, it was all done via Fast-Forward*
+
+23. git pull origin master (We now pulled everything from the remote repo to our local repo and we are up to date).
